@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    background-color: black;
+}
+.con{
+    display: grid;
+    grid-template-columns:repeat(9,1fr);
+    background-color: black;
+    gap: 5px;
+ 
+}
+.co{
+    padding: 10px;
+    background-color: rgba(236, 236, 15, 0.938);
+   
+}
+.aone{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height:125px ;
+}
+.atwo{
+    grid-row-start:2;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 250px;
+}
+.athree{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    /* height: 50px;
+    width: 75px; */
+}
+.afour{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.afive{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.asix{
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.aseven{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.aeight{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.anine{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
